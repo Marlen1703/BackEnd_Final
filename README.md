@@ -41,10 +41,7 @@ There are two roles of users, librarian and patron.
   * Keywords
 
 
-3. A librarian is able to search, add, update, and delete books.
-
-  * Search capability functions as a superset of search features to be described below for patrons.  
-    * Search has the apability to search for books created or updated by a particular librarian.  
+3. A librarian is able add, update, and delete books.
   * Update and deletion works together with search, i.e., a librarian has the capability to find a book through search, then decide to update/delete it.
   * A book cannot be deleted if it’s checked out by a patron.
   * Deleting a book also removes the waiting list for it, if there is any.
