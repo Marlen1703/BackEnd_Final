@@ -11,20 +11,6 @@ IntelliJ, Maven, MySQL, Apache Tomcat
 ### Functional Requirements
 This app manages many aspects of a university library system, including cataloging, search, circulation, and waiting list. The interface is web based, and the server needs to be hosted on the cloud, and is accessible from anywhere with Internet connection.
 
-#### Users and Authentication
-There are two roles of users, librarian and patron.
-
-1. A librarian manages cataloging, and can assist circulation as well.
-
-2. A patron is a customer of the library. He can search for books, borrow and returns books.
-
-3. For simplicity, we allow any user with any email address to be able to create his account using an email as the username, and password of his choice. The user also needs to provide a university ID of 6 digits.
-
-4. App sends an email to the user with a verification code. The user needs to use that verification code to complete his account registration. A registered user cannot really use features in the system until his account is verified. A confirmation email must be sent to the user after completion of account verification.
-
-5. For simplicity, we only and automatically register any user with an SJSU email account (@sjsu.edu) to be a librarian.  A librarian cannot be a patron, which means he has to use a different email to register if he needs a patron account as well.
-
-6. No two patrons can have the same university ID, neither can two librarians.
 
 #### Cataloging
 
