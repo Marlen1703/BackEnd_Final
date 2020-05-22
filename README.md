@@ -41,7 +41,7 @@ This app manages many aspects of a university library system, including catalogi
 
 
 ## Contributor:
-Ibraimov Marlen
+Ibraimov Marlen COM-18
 
 
 ## Home Page
