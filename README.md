@@ -33,10 +33,6 @@ This app manages many aspects of a university library system, including catalogi
   * Deleting a book also removes the waiting list for it, if there is any.
   * [Bonus Feature] Integrated with external APIs to simplify the input the book info based on ISBN.
 
-#### Waiting list
-1. A patron can add himself to a waiting list if the book he is interested in is currently checked out by somebody else. There is no limit on how many people can be added to a waiting list, yet the order in the waiting is preserved. You cannot add the same person to the same list twice for the same book.
-2. When a book becomes available, the first person on the waiting list is notified about its availability, and the person is removed from the waiting list. The book is reserved for this person for three days, during which only this person can check out this book. After these three days, the reservation is cancelled, and the next person in the waiting list (if there is any) is notified about the availability, and a three-day reservation is created for him as well. So on and so forth.
-
 
 ## Github setup
 1. Use a github UI application. E.g. Source Tree
